@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Legal Rights Workshop",
+    "description": "Understanding citizen rights and constitutional awareness workshop for students.",
+    "date": "Dec 15, 2023",
+    "location": "Sainamaina-06, Rupandehi",
+    "category": "Workshop",
+    "registrationLink": "https://example.com/register-workshop"
+  },
+  {
+    "id": "2",
+    "title": "Youth Leadership Summit",
+    "description": "Annual gathering of young leaders to discuss social impact and development.",
+    "date": "Dec 20, 2023",
+    "location": "Central Hall, Rupandehi",
+    "category": "Summit",
+    "registrationLink": "https://example.com/register-summit"
+  },
+  {
+    "id": "3",
+    "title": "Community Legal Aid Camp",
+    "description": "Free legal consultation and awareness program for local communities.",
+    "date": "Dec 25, 2023",
+    "location": "Community Center, Sainamaina",
+    "category": "Outreach",
+    "registrationLink": "https://example.com/register-outreach"
+  },
+  {
+    "id": "4",
+    "title": "Community Legal Aid Camp",
+    "description": "Free legal consultation and awareness program for local communities.",
+    "date": "Dec 25, 2023",
+    "location": "Community Center, Sainamaina",
+    "category": "Outreach",
+    "registrationLink": "https://example.com/register-outreach"
+  }
+]

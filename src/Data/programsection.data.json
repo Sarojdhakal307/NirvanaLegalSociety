@@ -1,0 +1,48 @@
+[
+  {
+    "id": "legal-awareness",
+    "title": "Legal Awareness Campaigns",
+    "description": "Educational programs focusing on citizen rights, constitutional awareness, and legal procedures.",
+    "items": [
+      {
+        "text": "Community Workshops",
+        "icon": "check-circle"
+      },
+      {
+        "text": "Legal Rights Seminars",
+        "icon": "check-circle"
+      }
+    ]
+  },
+  {
+    "id": "youth-leadership",
+    "title": "Youth Leadership Development",
+    "description": "Comprehensive training programs to develop future leaders and change-makers.",
+    "items": [
+      {
+        "text": "Leadership Workshops",
+        "icon": "check-circle"
+      },
+      {
+        "text": "Public Speaking Training",
+        "icon": "check-circle"
+      }
+    ]
+  },
+  {
+    "id": "community-development",
+    "title": "Community Development Programs",
+    "description": "Empowering local communities through sustainable development initiatives.",
+    "items": [
+      {
+        "text": "Volunteer Programs",
+        "icon": "check-circle"
+      },
+      {
+        "text": "Community Clean-Up",
+        "icon": "check-circle"
+      }
+    ]
+  }
+  
+]
