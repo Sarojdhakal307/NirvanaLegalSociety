@@ -54,12 +54,12 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link href="#pastevent" className="hover:text-white transition-colors">
                   Events
                 </Link>
               </li>
               <li>
-                <Link href="#join" className="hover:text-white transition-colors">
+                <Link href="#contact" className="hover:text-white transition-colors">
                   Join Us
                 </Link>
               </li>
@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   ></path>
                 </svg>
-                <span>info@nirvanalegalsociety.org</span>
+                <span>nirvanalegalsociety@gmail.com</span>
               </li>
             </ul>
           </div>

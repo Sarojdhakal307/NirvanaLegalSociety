@@ -2,39 +2,25 @@
 import React from "react";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 const people = [
-  {
-    id: 1,
-    name: "No name",
-    designation: "Executive",
-    image: "/kabita exec.jfif",
-  },
+  
   {
     id: 2,
     name: "Kabita Chapagain",
     designation: "Executive",
-    image:
-      "/kabita.jpg",
+    image: "/kabita.jpg",
   },
+  
   {
-    id: 3,
-    name: "Janisha Subedi ",
+    id: 5,
+    name: "Nischal Gyawali",
     designation: "Executive",
-    image:
-      "/Jenisha exec.jpg",
+    image: "/Nischal.jfif",
   },
   {
     id: 4,
     name: "Kriti Koirala",
     designation: "Executive",
-    image:
-      "/kriti exec.jpg",
-  },
-  {
-    id: 5,
-    name: "Nischal Gyawali",
-    designation: "Executive",
-    image:
-      "/Nischal.jfif",
+    image: "/kriti exec.jpg",
   },
   {
     id: 6,
@@ -49,10 +35,22 @@ const people = [
     image: "/bishnu t.jfif",
   },
   {
+    id: 1,
+    name: "Pratima Pandey",
+    designation: "Voice Secretary",
+    image: "/kabita exec.jfif",
+  },
+  {
     id: 8,
     name: "Nabin Poudel",
     designation: "Secretary",
     image: "/nabin exec.jfif",
+  },
+  {
+    id: 3,
+    name: "Janisha Subedi ",
+    designation: "Voice President",
+    image: "/Jenisha exec.jpg",
   },
   {
     id: 9,
