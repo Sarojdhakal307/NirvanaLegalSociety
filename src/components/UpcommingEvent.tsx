@@ -13,7 +13,7 @@ const upcomingEvents = eventData as Event[]; // Assert that the data is of type 
 
 const UpcomingEvents: React.FC = () => {
   return (
-    <section id="events" className="py-20 bg-white">
+    <section id="events" className="py-20 flex justify-center bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">

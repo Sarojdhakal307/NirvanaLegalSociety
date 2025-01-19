@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "initial": "S",
+      "role": "Bhumika Acharya",
+      "designation": "Law Student",
+      "testimonial": "As a participant, I felt truly engaged throughout the event. The topics discussed were relevant and forward-thinking, addressing real challenges in the legal field. It was a perfect blend of knowledge-sharing and networking!"
+    },
+    {
+      "id": 2,
+      "initial": "G",
+      "role": "Prakriti Pokharel",
+      "designation": "General Member",
+      "testimonial": "As a general member, I’ve had access to a wealth of resources that I couldn’t find anywhere else. From legal updates to networking opportunities, Nirvana Legal Society has become an indispensable part of my professional journey!"
+    },
+    {
+      "id": 3,
+      "initial": "E",
+      "role": "Bishnu Gautam",
+      "designation": "Executive Member",
+      "testimonial": "What I value most as an executive member is the balance between leadership opportunities and continuous learning. Nirvana Legal Society provides a platform to innovate, connect, and create a lasting impact on the legal community!"
+    }
+  ]
+  

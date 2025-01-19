@@ -2,6 +2,8 @@
 // import Link from "next/link";
 // import { rroupjpg } from "@/public/rroup.jpg";
 
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <section
@@ -49,7 +51,7 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-wrap gap-4" id="el-8ip3sx83">
-              <a
+              <Link
                 href="#programs"
                 className="px-8 py-3 bg-blue-900 text-white rounded-lg hover:bg-blue-800 transition duration-300 inline-flex items-center"
                 id="el-yogjymj2"
@@ -70,14 +72,14 @@ const Hero = () => {
                     id="el-sh8yg1st"
                   ></path>
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#contact"
                 className="px-8 py-3 border-2 border-blue-900 text-blue-900 rounded-lg hover:bg-blue-50 transition duration-300"
                 id="el-hnwyua92"
               >
                 Join Us
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -91,7 +93,7 @@ const Hero = () => {
                 <img
                   src='/rroup.jpg'
                   alt="Image unavailable"
-                  className=" m-9 object-contain transition-opacity duration-300 opacity-100 error-image"
+                  className="  object-contain transition-opacity duration-300 opacity-100 error-image"
                   loading="lazy"
                   id="el-n3gvp624"
                 />

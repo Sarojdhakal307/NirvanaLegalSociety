@@ -25,14 +25,5 @@
     "location": "Community Center, Sainamaina",
     "category": "Outreach",
     "registrationLink": "https://example.com/register-outreach"
-  },
-  {
-    "id": "4",
-    "title": "Community Legal Aid Camp",
-    "description": "Free legal consultation and awareness program for local communities.",
-    "date": "Dec 25, 2023",
-    "location": "Community Center, Sainamaina",
-    "category": "Outreach",
-    "registrationLink": "https://example.com/register-outreach"
   }
 ]
