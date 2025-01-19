@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "ES2020", // Updated for better modern JavaScript support
     "lib": [
       "dom",
       "dom.iterable",
@@ -12,21 +12,25 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "bundler", // Bundler for modern module resolution
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve", // Changed from "preserve" to "react-jsx"
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "jsx": "preserve", // Updated for React 17+ JSX transformation
+    "incremental": true, // Speeds up subsequent builds
+    "forceConsistentCasingInFileNames": true, // Avoids inconsistent casing issues
+    "allowSyntheticDefaultImports": true, // Helps with importing default modules
+    "strictNullChecks": true, // Enforces handling of null and undefined
+    "baseUrl": ".", // Enables absolute imports
     "paths": {
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -35,6 +39,10 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.test.ts", // Exclude test files if not needed
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
   ]
 }

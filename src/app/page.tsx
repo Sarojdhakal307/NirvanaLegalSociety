@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import ImpactSection from "@/components/ImpactSection";
 import GeneralMembership from "@/components/MemberShip";
 import Navbar from "@/components/NavBar";
+import EventGrid from "@/components/PastEvents";
 import ProgramsSection from "@/components/ProgramSection";
 import { Testimonials } from "@/components/Testimonials";
 // import { VortexDemoSecond } from "@/components/Think";
@@ -15,17 +16,18 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Hero/>
-      <About/>
-      <AnimatedTooltipPreview/>
-      <ProgramsSection/>
-      <UpcomingEvents/>
-      <ImpactSection/>
-      <Testimonials/>
-      <GeneralMembership/>
+      <Hero />
+      <About />
+      <AnimatedTooltipPreview />
+      <ProgramsSection />
+      <EventGrid />
+      {/* <UpcomingEvents /> */}
+      <ImpactSection />
+      <Testimonials />
+      <GeneralMembership />
       {/* <VortexDemoSecond/> */}
-      <ContactSection/>
-      <Footer/>
+      <ContactSection />
+      <Footer />
     </div>
   );
 }
