@@ -32,9 +32,12 @@ export const AnimatedTooltip = ({
     useTransform(x, [-100, 100], [-50, 50]),
     springConfig
   );
-  const handleMouseMove = (event: any) => {
-    const halfWidth = event.target.offsetWidth / 2;
-    x.set(event.nativeEvent.offsetX - halfWidth); // set the x value, which is then used in transform and rotate
+  const handleMouseMove = (event: React.MouseEvent<HTMLDivElement>) => {
+    const target = event.target as HTMLElement; // Ensure target is an HTMLElement
+    if (target?.offsetWidth) {
+      const halfWidth = target.offsetWidth / 2;
+      x.set(event.nativeEvent.offsetX - halfWidth); // Corrected typo in offsetX
+    }
   };
 
   return (
