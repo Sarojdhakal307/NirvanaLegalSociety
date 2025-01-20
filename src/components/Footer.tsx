@@ -1,4 +1,4 @@
-// components/Footer.tsx
+"use client"
 import Link from "next/link";
 import React from "react";
 
@@ -10,12 +10,13 @@ const Footer: React.FC = () => {
           {/* Logo and About */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <svg
+              {/* <svg
                 className="w-8 h-8"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-              >
+              > */}
+                <img src="/logo.jfif" className="w-10 h-10" alt="" />
                 <path
                   d="M12 2L1 12H4V21H20V12H23L12 2Z"
                   stroke="currentColor"
@@ -23,7 +24,7 @@ const Footer: React.FC = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 ></path>
-              </svg>
+              {/* </svg> */}
               <span className="text-xl font-bold">Nirvana Legal Society</span>
             </div>
             <p className="text-gray-400 text-sm">
