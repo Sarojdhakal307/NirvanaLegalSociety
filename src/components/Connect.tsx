@@ -43,6 +43,9 @@ const ContactSection: React.FC = () => {
     const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY;
 
     console.log(SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY);
+    if(!SERVICE_ID|| !TEMPLATE_ID || ! PUBLIC_KEY){
+      setError("Please set the EmailJS service ID in the environment variables");
+    }else{
     emailjs
       .send(SERVICE_ID, TEMPLATE_ID, formState, PUBLIC_KEY)
       .then(() => {
@@ -52,6 +55,7 @@ const ContactSection: React.FC = () => {
       .catch(() => {
         setError("Failed to send the message. Please try again.");
       });
+    }
   };
 
   return (
