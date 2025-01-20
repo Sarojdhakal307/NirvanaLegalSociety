@@ -12,11 +12,11 @@ const ContactSection: React.FC = () => {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState("");
-  console.log(
-    process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
-    process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY,
-    process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID
-  );
+  // console.log(
+  //   process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
+  //   process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY,
+  //   process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID
+  // );
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
@@ -42,7 +42,7 @@ const ContactSection: React.FC = () => {
     const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID;
     const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY;
 
-    console.log(SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY);
+    // console.log(SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY);
     if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
       setError(
         "Please set the EmailJS service ID in the environment variables"
