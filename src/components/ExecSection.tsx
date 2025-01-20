@@ -37,7 +37,7 @@ const people = [
   {
     id: 1,
     name: "Pratima Pandey",
-    designation: "Voice Secretary",
+    designation: "Vice Secretary",
     image: "/exec/pratimapandey.jpg",
   },
   {
@@ -49,7 +49,7 @@ const people = [
   {
     id: 3,
     name: "Janisha Subedi ",
-    designation: "Voice President",
+    designation: "Vice President",
     image: "/exec/jenisha.jpg",
   },
   {
