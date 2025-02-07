@@ -15,7 +15,6 @@ import UpcomingEvents from "@/components/UpcommingEvent";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <About />
       <AnimatedTooltipPreview />
@@ -27,7 +26,6 @@ export default function Home() {
       <GeneralMembership />
       {/* <VortexDemoSecond/> */}
       <ContactSection />
-      <Footer />
     </div>
   );
 }

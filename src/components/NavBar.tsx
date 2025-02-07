@@ -15,28 +15,29 @@ const Navbar: React.FC = () => {
     <div className="bg-[#E5E7EB]">
       <div className="flex justify-between items-center px-4 py-2 sticky top-0 z-50 bg-white shadow-md">
         {/* Logo/Brand */}
-        <div className="flex-shrink-0 flex flex-col">
+        <Link href="/" target="_blank"className="flex-shrink-0 flex ">
           <img
             src="/logo.jfif"
             alt="Company Logo"
-            className="h-12 w-auto transition-opacity duration-300 opacity-100"
+            className="h-12 w-auto transition-opacity duration-300 opacity-100 rounded-full"
             loading="lazy"
           />
-        </div>
+          <div className='font-semibold text-xl ml-3 mt-2'>Nirvana Legal Society</div>
+        </Link>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:block">
           <div className="ml-10 flex items-center space-x-8 mx-10">
-            <Link href="#" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            <Link href="/" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               Home
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            <Link href="/#about" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               About
             </Link>
-            <Link href="#programs" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            <Link href="/#programs" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               Services
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+            <Link href="/#contact" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
               Contact
             </Link>
           </div>
